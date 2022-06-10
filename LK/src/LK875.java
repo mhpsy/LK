@@ -1,4 +1,8 @@
-class Solution {
+import java.util.Arrays;
+
+public class LK875 {
+}
+class Solution875 {
     public int minEatingSpeed(int[] piles, int h) {
         int r = Arrays.stream(piles).max().getAsInt();
         int left = 1;

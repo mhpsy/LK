@@ -1,5 +1,6 @@
-class Solution {
-    public int searchInsert(int[] nums, int target) {
+public class LK35 {
+
+    public static int searchInsert2(int[] nums, int target) {
         int l = 0;
         int r= nums.length -1;
         int mid = 0;
@@ -17,3 +18,4 @@ class Solution {
         //判断条件为l<=r也就是退出循环的条件为l>r也就是正确的下标位置
     }
 }
+

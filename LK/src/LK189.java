@@ -1,4 +1,6 @@
-class Solution {
+public class LK189 {
+}
+class Solution189 {
     public void rotate(int[] nums, int k) {
         int[] temp=new int[nums.length];
         for(int i =0;i<nums.length;i++){
@@ -9,3 +11,4 @@ class Solution {
         }
     }
 }
+
