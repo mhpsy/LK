@@ -1,5 +1,10 @@
 public class LK35 {
+    public static void main(String[] args) {
 
+    }
+
+}
+class Solution35{
     public static int searchInsert2(int[] nums, int target) {
         int l = 0;
         int r= nums.length -1;
